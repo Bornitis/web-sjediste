@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apartmani Miami</title>
+  <link rel="stylesheet" href="stil.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="top">
+      <div class="logo"><a href="index.html"><img src="slike/logo.png" alt="logo"></a></div>
+      <nav>
+        <ul>
+          <li><a href="#o-nama">O nama</a></li>
+          <li><a href="#apartmani">Apartmani</a></li>
+          <li><a href="#usluge">Usluge</a></li>
+          <li><a href="#video">Video</a></li>
+          <li><a href="#galerija">Galerija</a></li>
+          <li><a href="kontakti.html">Kontakt</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero">
+    <span>APARTMANI</span>
+    <span>MIAMI</span>
+  </div>
+
+  <section id="o-nama">
+    <h2>O nama</h2>
+    <p>Apartmani <strong>MIAMI</strong> je tvrtka specijalizirana za pružanje kvalitetnog i dugoročnog turističkog
+      smještaja uz obalu <strong>SAD-a</strong>. Poslujemo u skladu s visokim profesionalnim standardima, s naglaskom na
+      pouzdanost, diskreciju i individualni pristup svakom gostu.</p>
+    <p>Naša ponuda obuhvaća pažljivo uređene apartmane smještene u mirnom okruženju, u neposrednoj blizini mora i
+      lokalnih sadržaja. Dugogodišnje iskustvo u turizmu omogućuje nam razumijevanje potreba gostiju.</p>
+    <p>U svom radu pratimo preporuke turističke struke te surađujemo s relevantnim institucijama i partnerima. Više
+      informacija možete pronaći na <a href="https://www.miamiandbeaches.com/">službenim stranicama turističke
+        zajednice</a>.</p>
+  </section>
+
+  <section id="apartmani">
+    <h2>Naši apartmani</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="slika"><img src="slike/Borna_Hasani_bitmapa1.jpg" alt="Apartman Deluxe"></div>
+        <h3>Apartman Deluxe</h3>
+        <p>Prostrani apartman s pogledom na more, idealan za obitelji.</p>
+      </div>
+      <div class="card">
+        <div class="slika"><img src="slike/Borna_Hasani_bitmapa2.jpg" alt="Apartman Superior"></div>
+        <h3>Apartman Superior</h3>
+        <p>Moderan apartman za parove i poslovne goste.</p>
+      </div>
+      <div class="card">
+        <div class="slika"><img src="slike/Borna_Hasani_bitmapa3.jpg" alt="Apartman Standard"></div>
+        <h3>Apartman Standard</h3>
+        <p>Udoban i funkcionalan apartman za kraći boravak.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="usluge">
+    <h2>Usluge</h2>
+    <p>Kako bismo boravak naših gostiju učinili što ugodnijim, nudimo niz usluga koje se mogu dogovoriti unaprijed ili
+      tijekom boravka.</p>
+    <ul>
+      <li>Dnevno i tjedno čišćenje apartmana</li>
+      <li>Organizirani prijevoz od i do zračne luke</li>
+      <li>Pomoć pri organizaciji izleta i lokalnih aktivnosti</li>
+      <li>Besplatan Wi‑Fi</li>
+    </ul>
+  </section>
+
+  <section id="video">
+    <h2>Promotivni video</h2>
+    <video controls>
+      <source src="video/Borna_Hasani_video.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <section id="galerija">
+
+    <h2>Galerija</h2>
+
+    <div class="gallery">
+
+      <div class="gallery-item">
+        <img src="slike/plaza1.jpg" alt="Isla Pasion" width="600" height="400">
+        <div class="desc">Isla Pasion</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="slike/plaza2.jpg" alt="Elafonissi Beach" width="600" height="400">
+        <div class="desc">Elafonissi Beach</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="slike/plaza3.jpg" alt="Balos Lagoon" width="600" height="400">
+        <div class="desc">Balos Lagoon</div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="slike/plaza4.jpg" alt="Eagle Beach" width="600" height="400">
+        <div class="desc">Eagle Beach</div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <footer>
+    <p>&copy; 2026 Apartmani MIAMI</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('nav ul');
+      menu.classList.toggle('active');
+    }
+  </script>
+
+</body>
+
+</html>
