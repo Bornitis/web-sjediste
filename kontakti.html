@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt | Apartmani MIAMI</title>
+<link rel="stylesheet" href="kontaktistil.css" />
+</head>
+<body>
+
+<header>
+  <div class="top">
+    <div class="logo"><a href="index.html"><img src="slike/logo.png" alt="logo"></a></div>
+    <nav>
+      <ul>
+        <li><a href="#informacije">Informacije</a></li>
+        <li><a href="#obrazac">Obrazac</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="#lokacija">Lokacija</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+    </nav>
+  </div>
+
+</header>
+
+<main>
+  <h2 id="informacije">Kontakt informacije</h2>
+  <p>Za sve upite vezane uz smještaj, dostupnost termina ili dodatne usluge, slobodno nas kontaktirajte putem dolje navedenih podataka.</p>
+
+    <div class="box">
+      <h3>Tvrtka</h3>
+      <p><strong>Apartmani MIAMI d.o.o.</strong></p>
+      <p>Obala moreplovaca 12<br>21000 Miami</p>
+      <p>OIB: 12345678901</p>
+    </div>
+
+    <div class="box" id="obrazac">
+      <h3>Kontakt obrazac</h3>
+      <form>
+        <input type="text" placeholder="Ime i prezime" required>
+        <input type="email" placeholder="E-mail" required>
+        <textarea rows="4" placeholder="Vaša poruka"></textarea>
+        <button type="submit">Pošalji poruku</button>
+      </form>
+    </div>
+
+    <div class="box" id="kontakt">
+      <h3>Kontakt</h3>
+      <p>Telefon: +385 21 000 000</p>
+      <p>E-mail: <a href="mailto:info@apartmani-miami.com">info@apartmani-miami.com</a></p>
+      <p>Radno vrijeme: pon–pet, 08–16 h</p>
+    </div>
+
+    <div class="box" id="lokacija">
+      <h3>Lokacija</h3>
+      <div class="mapa"><img src="slike/mapa.jpg" alt="mapa"></div>
+    </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 Apartmani MIAMI</p>
+</footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.querySelector('nav ul');
+      menu.classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="794"
+   height="1123"
+   viewBox="0 0 794 1123"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="logo.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.71861086"
+     inkscape:cx="397.2943"
+     inkscape:cy="450.1741"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1">
+    <g
+       id="g2"
+       inkscape:export-filename="logo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <text
+         xml:space="preserve"
+         style="font-size:159.607px;font-family:'Freestyle Script';-inkscape-font-specification:'Freestyle Script';writing-mode:lr-tb;direction:ltr;fill:#008080;stroke-width:13.3006"
+         x="149.60851"
+         y="476.0148"
+         id="text1"
+         transform="scale(1.1806514,0.84699005)"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           x="149.60851"
+           y="476.0148"
+           style="stroke-width:13.3006">MIAMI</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:129.327px;font-family:'Freestyle Script';-inkscape-font-specification:'Freestyle Script';writing-mode:lr-tb;direction:ltr;fill:#008080;stroke-width:10.7773"
+         x="77.65638"
+         y="292.10855"
+         id="text2"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           x="77.65638"
+           y="292.10855"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Tw Cen MT Condensed Extra Bold';-inkscape-font-specification:'Tw Cen MT Condensed Extra Bold, ';fill:#000000;stroke-width:10.7773">APARTMANI</tspan></text>
+      <path
+         sodipodi:type="star"
+         style="fill:#000000"
+         id="path2-8"
+         inkscape:flatsided="false"
+         sodipodi:sides="5"
+         sodipodi:cx="175.33829"
+         sodipodi:cy="519.05701"
+         sodipodi:r1="69.08992"
+         sodipodi:r2="34.544956"
+         sodipodi:arg1="1.0471976"
+         sodipodi:arg2="1.6755161"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 209.88324,578.89063 -38.15588,-25.47791 -42.61926,16.9881 12.44012,-44.16151 -29.32671,-35.28371 45.8443,-1.8154 24.49434,-38.79463 15.89323,43.03953 44.46505,11.30731 -36.02176,28.4153 z"
+         inkscape:transform-center-x="0.40561212"
+         inkscape:transform-center-y="-3.6082868"
+         transform="matrix(0.60008587,-0.08217455,0.08217455,0.60008587,483.22419,66.754544)" />
+      <path
+         sodipodi:type="star"
+         style="fill:#000000"
+         id="path2-8-1"
+         inkscape:flatsided="false"
+         sodipodi:sides="5"
+         sodipodi:cx="175.33829"
+         sodipodi:cy="519.05701"
+         sodipodi:r1="69.08992"
+         sodipodi:r2="34.544956"
+         sodipodi:arg1="1.0471976"
+         sodipodi:arg2="1.6755161"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 209.88324,578.89063 -38.15588,-25.47791 -42.61926,16.9881 12.44012,-44.16151 -29.32671,-35.28371 45.8443,-1.8154 24.49434,-38.79463 15.89323,43.03953 44.46505,11.30731 -36.02176,28.4153 z"
+         inkscape:transform-center-x="0.40561212"
+         inkscape:transform-center-y="-3.6082868"
+         transform="matrix(0.60008587,-0.08217455,0.08217455,0.60008587,-27.399115,68.224181)" />
+    </g>
+  </g>
+</svg>
